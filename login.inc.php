@@ -75,7 +75,7 @@ function callsignup(){
 <?php
 session_start();
 if(!empty($_POST)){
-$conn=new mysqli("localhost","root",null,"sahara");
+$conn=new mysqli("localhost","root",null,"Crowdfunding_system");
 if($conn->connect_error){
 	die("error in database connectivity");
 	}

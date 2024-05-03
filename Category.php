@@ -12,7 +12,7 @@
 <script src="respond.min.js"></script>
 
 <?PHP
-$conn = mysqli_connect("localhost", "root","", "sahara");
+$conn = mysqli_connect("localhost", "root","", "Crowdfunding_system");
 ?>
 
 <script src="http://use.edgefonts.net/montserrat:n4:default;alice:n4:default.js" type="text/javascript"></script>

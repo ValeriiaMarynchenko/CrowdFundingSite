@@ -107,7 +107,7 @@ function carousel() {
 <div class="col-lg-9 col-md-12">
 <div class="row">
 <?php
-$conn=mysqli_connect("localhost","root","","sahara");
+$conn=mysqli_connect("localhost","root","","Crowdfunding_system");
 $sql="Select * from post";
 $res=mysqli_query($conn,$sql);
 $i=1;

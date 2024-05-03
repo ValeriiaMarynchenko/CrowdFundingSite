@@ -1,10 +1,12 @@
-<?php<style>
+<?php
+echo "<style>
  h1{
-	color:#708F1E;
+    color:#708F1E;
 }
+</style>";
 
-</style>
-	@session_start();
+
+@session_start();
 if(isset($_SESSION["userlogged"])){
 					
 	
@@ -13,7 +15,7 @@ if(isset($_SESSION["userlogged"])){
 
 		unset($_SESSION["message"]);
 		@session_start();
-		$conn=new mysqli("localhost","root",null,"sahara");
+		$conn=new mysqli("localhost","root",null,"Crowdfunding_system");
 if($conn->connect_error){
 	die("reeor in database connectivity");
 	}
@@ -79,4 +81,3 @@ $conn->close();
 	header("Location: login.inc.php");
 	
 }
-	?>

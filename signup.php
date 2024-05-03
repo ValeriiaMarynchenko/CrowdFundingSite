@@ -55,7 +55,7 @@ height: 30px;margin-bottom: 16px; margin-right: 6px;margin-top: 2px;outline: 0 n
 if(isset($_POST['savedata'])){
 	@ob_start();
 	
-$conn=new mysqli("localhost","root",null,"sahara");
+$conn=new mysqli("localhost","root",null,"Crowdfunding_system");
 if($conn->connect_error){
 	die("reeor in database connectivity");
 	}
@@ -102,7 +102,7 @@ if ($result->num_rows > 0) {
 	
 if($count==0) {
     		
-$myquery="INSERT INTO `user` (`user_id`, `user_name`, `user_lastname`, `user_email`, `user_password`, `user_phonno`) VALUES (NULL, '$firstnamee', '$lastname', '$email', '$password', '$username')";
+$myquery="INSERT INTO `user` (`user_id`, `user_name`, `user_lastname`, `user_email`, `user_password`, `user_phone`) VALUES (NULL, '$firstnamee', '$lastname', '$email', '$password', '$username')";
 if ($conn->query($myquery) === TRUE) {
 $last_id = $conn->insert_id;
    @ob_start();

@@ -1,8 +1,7 @@
-# SAHARA 
 ## A Crowd Funding Website
 
 #### Purpose 
-Allow users to post request for fonationd and give donations to other users , all request are moderated by admin
+Allow users to post request for fundations and give donations to other users , all request are moderated by admin
  
 #### Scope
 this is a website Project developed as part of Web Engneering Subject project.

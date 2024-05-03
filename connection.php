@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 </head>
 <?PHP 
-mysqli_connect("localhost","root","","sahara") or die("Could not connect to Database");
+mysqli_connect("localhost","root","","Crowdfunding_system") or die("Could not connect to Database");
 ?>
 <body>
 </body>

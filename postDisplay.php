@@ -20,7 +20,7 @@ error_reporting(1);
 ?>
 <?php  
 session_start();
-$conn=new mysqli("localhost","root",null,"sahara");
+$conn=new mysqli("localhost","root",null,"Crowdfunding_system");
 if($conn->connect_error){
 	die("reeor in database connectivity");
 	}

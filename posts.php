@@ -12,7 +12,7 @@
 <script src="respond.min.js"></script>
 
 <?PHP
-$conn = mysqli_connect("localhost", "root","", "sahara");
+$conn = mysqli_connect("localhost", "root","", "Crowdfunding_system");
 ?>
 
 <script src="http://use.edgefonts.net/montserrat:n4:default;alice:n4:default.js" type="text/javascript"></script>
@@ -80,15 +80,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, iure nemo earum 
   <hr>
 
     <address>
-      <strong>MyStoreFront, Inc.</strong><br>
-      Indian Treasure Link<br>
-      Quitman, WA, 99110-0219<br>
+      <strong>Company name</strong><br>
+        Ukraine<br>
+        UA, 000000<br>
   <abbr title="Phone">P:</abbr> (123) 456-7890
       </address>
 
       <address>
         <strong>Full Name</strong><br>
-        <a href="mailto:#">first.last@example.com</a>
+        <a href="mailto:#">valeiia.marynchenko@example.com</a>
       </address>
 </div>
   </div>

@@ -24,7 +24,7 @@ img{
 }
 #sidebar{
 	
-	width:30%
+	width:30%;
 	float:left;
 	color:#708F1E;
 	background:white;
@@ -39,7 +39,7 @@ img{
 #comments{
 	
 	width:70%;
-	background:;
+	background:#708F1E;
 	padding:20px;
 }
 #comments h3{
